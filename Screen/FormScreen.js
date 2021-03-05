@@ -2,10 +2,8 @@
 
 /* eslint-disable react-native/no-inline-styles */
 import axios from 'axios';
-import {Button, H1, Input, Item, Textarea} from 'native-base';
-import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
-import {useState} from 'react/cjs/react.development';
+import {Button, H1, Input, Item, Textarea, View, Text} from 'native-base';
+import React, {useState, useEffect} from 'react';
 
 const FormScreen = ({route, navigation}) => {
   const [ID, setID] = useState(null);
